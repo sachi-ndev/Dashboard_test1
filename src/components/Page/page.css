@@ -29,7 +29,25 @@ body{
     background-color:rgb(178,230,254) ;
     color:  rgb(37 99 235);
   }
-  
+  #modal{
+    display: block;
+        /* right:%; */
+        animation: move_left 1s;
+  }
+
+  @keyframes move_left{
+    0%{
+        position: absolute;
+        right:100%;
+        top: 0%;
+    }
+    100%{
+        position: absolute;
+        right:0%;
+        top: 0%;
+    }
+  }
+
 
 hr{
     border: .1px solid black;

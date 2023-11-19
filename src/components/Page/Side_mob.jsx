@@ -9,7 +9,7 @@ export default function Side_mob() {
 
     const[modal,setModal]=useState(false)
 
-    console.log(modal);
+    // console.log(modal);
   return (
     <div>
       <div className='block md:hidden ' onClick={()=>setModal(!modal)}>

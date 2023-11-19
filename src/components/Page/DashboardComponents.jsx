@@ -102,7 +102,7 @@ export default function DashboardComponents() {
           </div>
         </div>
       </div>
-      <div className="mb-[20rem] md:mb-0 flex flex-col md:flex-row md:justify-between md:w-[90%] mx-auto  items-center gap-6 font-medium">
+      <div className="mb-[8rem] md:mb-0 flex flex-col md:flex-row md:justify-between md:w-[90%] mx-auto  items-center gap-6 font-medium">
         <div className="
         w-[100%] md:w-[]  p-9 shadow-lg rounded-xl md:p-[1rem] flex flex-col md:flex-row overflow-hidden 
         md:aspect-[1.5/] 

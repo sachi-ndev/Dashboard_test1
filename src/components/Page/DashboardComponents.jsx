@@ -13,7 +13,7 @@ export default function DashboardComponents() {
   return (
     <div className="h-full w-full  box-border p-[3rem] flex flex-col gap-6 ">
       <div className=" flex flex-col md:flex-row items-center md:justify-between md:w-[90%] mx-auto gap-6">
-        <div className="aspect-[1/1.2] w-[90%] p-[10px] md:w-[18rem] self-center bg-white shadow-xl rounded-xl ">
+        <div className="aspect-[1/1.2] w-[110%] p-[10px] md:w-[18rem] self-center bg-white shadow-xl rounded-xl ">
           <h1 className="text-[2rem] font-medium">Basic</h1>
           <p>$88.99/mo</p>
           <h1 className="text-[2rem]">9.99/mo</h1>
@@ -42,7 +42,7 @@ export default function DashboardComponents() {
           </div>
         </div>
 
-        <div className="aspect-[1/1.2] w-[90%] p-[10px] md:w-[18rem] self-center bg-white shadow-xl rounded-xl ">
+        <div className="aspect-[1/1.2] w-[110%] p-[10px] md:w-[18rem] self-center bg-white shadow-xl rounded-xl ">
           <h1 className="text-[2rem] font-medium">Standard</h1>
           <p>$189.99/mo</p>
           <h1 className="text-[2rem]">99.99/mo</h1>
@@ -71,7 +71,7 @@ export default function DashboardComponents() {
           </div>
         </div>
 
-        <div className="aspect-[1/1.2] w-[90%] p-[10px] md:w-[18rem] self-center bg-white shadow-xl rounded-xl ">
+        <div className="aspect-[1/1.2] w-[110%] p-[10px] md:w-[18rem] self-center bg-white shadow-xl rounded-xl ">
           <h1 className="text-[2rem] font-medium">Premium</h1>
           <p>$389.99/mo</p>
           <h1 className="text-[2rem]">199.99</h1>

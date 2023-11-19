@@ -1,0 +1,53 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+#parallelogram {
+    width: 14.5rem;
+    height: 8.5rem;
+    transform: skew(-30deg);
+    box-shadow: rgba(0, 0, 0, 0.45) 10px 0px 20px -20px;
+    background-color: white;
+    /* box-shadow: 30px -10px 100px  black; */
+  }
+  #parallelogram::after{
+    content: '';
+    background-color: white;
+    top: 0px;
+    transform: skewX(50deg);
+    height: 8.5rem;
+    display: block;
+    width: 8rem;
+  }
+
+  #activeblue{
+    background-color: #c5d9f8;
+  }
+  #activesidebar{
+    background-color:rgb(178,230,254) ;
+    color:  rgb(37 99 235);
+  }
+  
+
+hr{
+    border: .1px solid black;
+}
+@media (max-width:550px) {
+    #parallelogram {
+        width: 35%;
+        height: 8.5rem;
+        transform: skew(0deg);
+        background-color: white;
+      }
+      #parallelogram::after{
+        content: '';
+        background-color: white;
+        top: 0px;
+        transform: skewX(50deg);
+        height: 8.5rem;
+        display: none;
+        width: 50%;
+      }
+}
